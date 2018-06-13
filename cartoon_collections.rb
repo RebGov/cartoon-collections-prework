@@ -13,5 +13,5 @@ end
 def find_the_cheese(list_items)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  list_items.find  { |snack| snack == "cheddar" }
+  list_items.find  { |snack| snack == "cheddar" || snack == "gouda" || snack == "camembert" }
 end 
