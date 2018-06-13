@@ -17,6 +17,4 @@ def find_the_cheese(list_items)
     if snack == "cheddar" || 
     if snack == "gouda" || 
     if snack == "camembert" 
-  end
-end
-end
+end 
