@@ -10,7 +10,8 @@ def long_planeteer_calls(list_words)
   list_words.any? { |word| word.length > 4 }
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(snack_list)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  sanck_list.find { |snack| snack == cheese_types }
 end
